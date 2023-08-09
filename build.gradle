@@ -4,13 +4,9 @@ plugins {
 	id 'java'
 }
 
-tasks.withType(JavaCompile) {
-	options.compilerArgs << "-source" << "1.8" << "-target" << "1.8"
-}
-
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
